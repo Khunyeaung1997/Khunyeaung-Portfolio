@@ -1,0 +1,131 @@
+.skills{
+    background-color: white;
+    
+   
+
+    h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .wrapper{
+        display: flex;
+       
+        .left{
+            flex: 0.5;
+
+            h5{
+                width: 20%;
+                height: 30px;
+                margin-left: 230px;
+                margin-top: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                border: 1px solid red;
+                background-color: red;
+                
+                
+            }
+            p{
+                width: 70%;
+                height: 200px;
+                padding: 20px;
+                margin-left: 90px;
+                margin-top: 30px;
+                border: 1px solid wheat;
+                border-radius: 9px;
+                color: rgb(109, 106, 103);
+                
+            }
+        }
+
+        .right{
+            flex: 0.5;
+            
+
+            h5{
+                width: 20%;
+                height: 30px;
+                margin-left: 205px;
+                margin-top: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                border: 1px solid red;
+                background-color: red;
+                
+                
+            }
+
+            .portfolio_arrow{
+
+                img{
+                    width: 20px;
+                    margin-top: 50px;
+                    animation: arrowBlink 2s infinite;
+                }
+                @keyframes arrowBlink {
+                    100%{
+                        opacity: 0;
+                    }
+            }
+        
+            }
+            
+            
+            .skillContainer{
+                overflow: hidden;
+                margin-left: 34px;
+                .skillIcon{
+                    width: 300px;
+                    margin: 20px 70px;
+
+                    .htmlText{
+                        overflow: hidden;
+                        font-size: 15px;
+                    }
+
+                    .cssText{
+                        overflow: hidden;
+                        font-size: 15px;
+                    }
+
+                    .javascriptText{
+                        overflow: hidden;
+                        font-size: 15px;
+                    }
+
+                    .reactText{
+                        overflow: hidden;
+                        font-size: 15px;
+                    }
+                    .progress{
+                        width: 300px;
+                        height: 5px;
+                        
+                    .progress-bar{
+                        background-color: red;
+                        width: 200px;
+                        height: 20px;
+                        
+                      }
+                    }
+                }
+
+                
+            }
+            
+            
+                
+        }
+
+        
+
+        
+    }
+}

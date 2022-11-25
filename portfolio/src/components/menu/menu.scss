@@ -1,0 +1,42 @@
+.menu{
+    width: 200px;
+    height: 500px;
+    background-color: rgb(246, 37, 0);
+    z-index: 2;
+    top: 0;
+    right: -200px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+
+    &.active {
+        right: 0;
+       
+    }
+
+    ul{
+        list-style: none;
+        font-style: 30px;
+        font-weight: 300;
+        margin: 0;
+        padding: 0;
+        width: 65%;
+
+        li{
+            margin-bottom: 27px;
+            a{
+                font-size: 20px;
+                color: white;
+                text-decoration: none;
+            }
+            &:hover{
+                font-weight: 500;
+            }
+        }
+    }
+
+
+}
